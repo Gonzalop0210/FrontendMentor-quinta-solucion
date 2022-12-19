@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner__main {
+    background-color: hsl(225, 100%, 98%);
+    width: 85%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    font-family: 'Red Hat Display';
+    border-radius: 15px;
+}
+
+.img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.paragraph {
+    color: hsl(224, 23%, 55%);
+    font-size: .95rem;
+    padding: 0 40px;
+    line-height: 25px;
+}
+
+.container__music {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    background-color: hsl(225, 100%, 96.5%);
+    padding: 15px 20px;
+    border-radius: 15px;
+    font-size: .9rem;
+    margin-top: 30px;
+}
+
+.plan {
+    font-weight: 900;
+    margin: 0 25px 0 15px;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.link {
+    font-size: .85rem;
+    color: hsl(245, 75%, 52%);
+    margin-left: 10px;
+    font-weight: 700;
+    transition: .2s;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: hsl(244, 100%, 77%);
+}
+
+.button {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border: none;
+    width: 85%;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: 'Red Hat Display';
+    font-size: .95rem;
+    font-weight: 700;
+    margin-top: 20px;
+    box-shadow: 0px 5px 20px -7px hsl(245, 75%, 52%);
+    transition: .2s;
+}
+
+.button:hover {
+    background-color: hsl(244, 100%, 77%);
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: .95rem;
+    margin-top: 20px;
+    transition: .2s;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+@media only screen and (min-width: 1440px) {
+    .conteiner__main {
+        width: 25%;
+    }
+}
